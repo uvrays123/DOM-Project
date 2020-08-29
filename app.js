@@ -43,7 +43,7 @@ function button() {
     diceRoll = Math.floor(Math.random() * 6) + 1;
     console.log(diceRoll);
     document.querySelector(".dice").style.display = "block";
-    document.querySelector(".dice").src = "dice-" +diceRoll+ ".png";
+    document.querySelector(".dice").src = "dice-" +diceRoll+ ".jpg";
     //activeRoll(activePlayer, diceRoll);
 
     if(activePlayer === 1) {
